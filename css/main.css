@@ -58,4 +58,59 @@ header{
   overflow: auto;
 }
 
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  text-align: center;
+  margin-top: 80px;
+}
 
+#home .container{
+  color: white;
+  padding: 70px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+
+.btn-home{
+  background: #2Ecc71;
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#services{
+  background-color: #F17c72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+footer{
+  text-align: center;
+  height: 70px;
+  background-color: #373b47;
+  color: white;
+  padding-top: 7px;
+}
