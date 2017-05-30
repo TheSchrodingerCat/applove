@@ -41,3 +41,21 @@ a:hover {
   padding: 21px;
   display: inline-block;
 }
+
+.logo{
+  float: right;
+}
+
+header{
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu{
+  padding: 14px 70px;
+  overflow: auto;
+}
+
+
