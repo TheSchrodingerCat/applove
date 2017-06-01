@@ -121,6 +121,10 @@ header{
   vertical-align: middle;
 }
 
+.cajita{
+  display: inline-block;
+}
+
 footer{
   text-align: center;
   height: 70px;
