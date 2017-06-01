@@ -17,7 +17,7 @@
 
 /* grid */
 
-.row:befor, .row:after{
+.row:before, .row:after{
 	content: "";
 	display: table;
 }
