@@ -26,10 +26,16 @@
 	clear: both;
 }
 
+.container{
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+}
+
 [class*="col-"]{
 	background-position: center;
 	min-height: 7px;
-	/*float: left;*/
+	float: left;
 	padding: 12px;
 }
 
