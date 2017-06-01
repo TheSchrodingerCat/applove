@@ -14,3 +14,77 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* grid */
+
+.row:befor, .row:after{
+	content: "";
+	display: table;
+}
+
+.row:after{
+	clear: both;
+}
+
+[class*="col-"]{
+	background-position: center;
+	min-height: 7px;
+	/*float: left;*/
+	padding: 12px;
+}
+
+.col-1{
+	width: 8.333333%;
+
+}
+
+.col-2{
+	width: 16.666667%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33333%;
+}
+
+.col-5{
+	width: 41.666667%;
+}
+
+.col-6{
+	width: 50%;
+}
+
+.col-7{
+	width: 58.33333%;
+}
+
+.col-8{
+	width: 66.666667%;
+}
+
+.col-9{
+	width: 75%;
+}
+
+.col-10{
+	width: 83.33333%;
+}
+
+.col-11{
+	width: 91.666667%;
+}
+
+.col-12{
+	width: 100%;
+}
+
+/* responsive */
+
+.img-responsive{
+	max-width: 100%;
+	width: 100%;
+}
